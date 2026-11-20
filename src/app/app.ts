@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import { LoginForm } from './login/components/login-form/login-form';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,LoginForm],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
